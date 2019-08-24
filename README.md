@@ -10,6 +10,12 @@ pipenv run pytest --cov=. # check a coverage source file located in "." using c
 python mymain.py
 ```
 
+```
+# Set up of pre-commit and pre-push hooks once
+pipenv run pre-commit install -t pre-commit
+pipenv run pre-commit install -t pre-push
+```
+
 #### References 
 
 Based on <https://sourcery.ai/blog/python-best-practices/> and <https://docs.python-guide.org/writing/structure/>
